@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fuente "Poppins 700/400" y "Montserrat 700" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fuente "Poppins 700/400" y "Montserrat 700" -->
+
+    <!-- Componente header -->
+    <link rel="stylesheet" href="./header-componente/index.css" />
+    <script defer src="./header-componente/index.js"></script>
+    <!-- Componente header -->
+
+    <!-- Componente footer -->
+    <link rel="stylesheet" href="./footer-componente/index.css" />
+    <script defer src="./footer-componente/index.js"></script>
+    <!-- Componente footer -->
+
+    <link rel="stylesheet" href="./portfolio.css" />
+    <script defer src="./portfolio.js"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <section class="contenedor__welcome">
+        <div class="contenedor__header"></div>
+        <h1 class="contenedor__title">Portfolio</h1>
+      </section>
+      <section class="contenedor__trabajos">
+        <template class="template-card-trabajo">
+          <div class="card-trabajo">
+            <img class="card-trabajo__img" src="" alt="" />
+            <h2 class="card-trabajo__title"></h2>
+            <p class="card-trabajo__text"></p>
+            <a class="card-trabajo__link" target="__BLANK" href=""></a>
+          </div>
+        </template>
+      </section>
+      <div class="contenedor__footer"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.contenedor {
+  background-color: black;
+}
+@media (min-width: 992px) {
+  .contenedor {
+    background: linear-gradient(
+      107.17deg,
+      #408195 29.35%,
+      rgba(0, 210, 135, 0.8) 78.73%
+    );
+  }
+}
+
+.contenedor__main {
+  height: 800px;
+}

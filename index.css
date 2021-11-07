@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Section welcome */
+.welcome {
+  height: 616px;
+  background: url(https://i.pinimg.com/originals/7a/b7/9d/7ab79d1e7518a7f776d770f42ff1ea10.jpg);
+}
+
+.welcome__cont-title {
+  padding: 187px 0 0 0;
+}
+@media (min-width: 992px) {
+  .welcome__cont-title {
+    padding: 159px 0 0 0;
+  }
+}
+
+.welcome__title,
+.welcome__subtitle {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 0 8px 0;
+  text-align: center;
+  font-size: 48px;
+  color: white;
+}
+.welcome__subtitle {
+  margin: 0;
+  font-size: 32px;
+}
+
+/* Section presentacion */
+
+.presentacion {
+  padding: 55px 31px 55px 31px;
+  background-color: #141414;
+  min-height: 538px;
+}
+@media (min-width: 992px) {
+  .presentacion {
+    background-color: white;
+  }
+}
+
+@media (min-width: 992px) {
+  .presentacion__content {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+  }
+}
+
+.presentacion__img {
+  display: none;
+  width: 380px;
+  height: 480px;
+}
+@media (min-width: 992px) {
+  .presentacion__img {
+    display: inherit;
+  }
+}
+
+.presentacion__cont-text {
+  margin: 0 auto;
+  max-width: 500px;
+}
+@media (min-width: 992px) {
+  .presentacion__cont-text {
+    margin: 70px 0 0 0;
+    max-width: 610px;
+  }
+}
+
+.presentacion__title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0 0 46px 0;
+  color: white;
+}
+@media (min-width: 992px) {
+  .presentacion__title {
+    margin: 0 0 24px 0;
+    text-align: inherit;
+    color: #2c2c2c;
+  }
+}
+.presentacion__parrafo {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (min-width: 992px) {
+  .presentacion__parrafo {
+    color: #2c2c2c;
+    font-size: 24px;
+  }
+}
+
+/* Section servicios */
+
+.mis-servicios {
+  padding: 69px 0px 66px 0px;
+}
+@media (min-width: 992px) {
+  .mis-servicios {
+    padding: 59px 92px 90px 84px;
+  }
+}
+
+.mis-servicios__title {
+  margin: 0 0 43px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #2c2c2c;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .mis-servicios__title {
+    margin: 0 0 71px 0;
+  }
+}
+
+.cont-servicios {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+@media (min-width: 992px) {
+  .cont-servicios {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+.servicio {
+  text-align: center;
+}
+
+.servicio__img {
+  width: 138px;
+  height: 128px;
+}
+
+.servicio__title {
+  margin: 14px 0 7px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2c2c2c;
+}
+
+.servicio__text {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 262px;
+}
+
+/* Section contacto */
+.formulario-contacto {
+  background-color: #141414;
+}
